@@ -13,15 +13,25 @@ return [
     |
     */
 
-    'my_information' => 'Informazioni personali',
-    'change_password' => 'Cambia password',
-    'administration' => 'Amministrazione',
-    'dashboard' => 'Dashboard',
-    'home' => 'Home',
-    'login' => 'Login',
-    'logout' => 'Logout',
-    'macros' => 'Macro',
-    'register' => 'Registrazione',
-    'button' => 'Pulsante',
+    'backend' => [
+        'button' => 'Pulsante',
+    ],
 
+    'general' => [
+        'logout' => 'Logout',
+    ],
+
+    'frontend' => [
+        'dashboard' => 'Dashboard',
+        'home' => 'Home',
+        'login' => 'Login',
+        'macros' => 'Macro',
+        'register' => 'Registrazione',
+
+        'user' => [
+            'administration' => 'Amministrazione',
+            'change_password' => 'Cambio Password',
+            'my_information' => 'Profilo',
+        ],
+    ],
 ];

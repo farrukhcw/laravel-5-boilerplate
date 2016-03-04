@@ -13,8 +13,7 @@ return [
     |
     */
 
-    'web_developer' => 'Desarrollador Web',
     'administrator' => 'Administrador',
     'user' => 'Usuario',
-
+    'web_developer' => 'Desarrollador',
 ];

@@ -13,15 +13,25 @@ return [
     |
     */
 
-    'my_information' => 'Mina uppgifter',
-    'change_password' => 'Byt lösenord',
-    'administration' => 'Adminsidan',
-    'dashboard' => 'Huvudpanelen',
-    'home' => 'Startsidan',
-    'login' => 'Logga in',
-    'logout' => 'Logga ut',
-    'macros' => 'Macros',
-    'register' => 'Registrera',
-    'button' => 'Knapp',
+    'backend' => [
+        'button' => 'Knapp',
+    ],
 
+    'general' => [
+        'logout' => 'Logga ut',
+    ],
+
+    'frontend' => [
+        'dashboard' => 'Kontrollpanelen',
+        'home' => 'Start',
+        'login' => 'Logga in',
+        'macros' => 'Macros',
+        'register' => 'Registrera',
+
+        'user' => [
+            'administration' => 'Adminpanelen',
+            'change_password' => 'Byt lösenord',
+            'my_information' => 'Min profil',
+        ],
+    ],
 ];
